@@ -1,0 +1,98 @@
+*{
+
+  margin:0;
+  padding:0;
+}
+
+.container{
+width:90%;
+margin:0 auto;
+
+
+}
+
+a{
+  text-decoration: none;
+}
+.navbar{
+
+width:100%;
+overflow: hidden;
+height:70px;
+line-height: 70px;
+background:rgb(0, 100, 72);
+border-bottom: 2px solid lightseagreen;
+position: fixed;
+top:0;
+}
+
+
+.logo{
+  width:70px;
+  float:left;
+  
+  
+}
+
+/* this is for ul tag  */
+.menu{
+  float:right;
+}
+.menu li{
+  float:left;
+  width: 120px;
+  height:70px;
+  line-height: 70px;
+  text-align: center;
+  list-style: none;
+  text-decoration:none ;
+  
+  
+}
+
+
+.menue li a {
+  color: #fff;
+  text-decoration: none;
+  font-family: Calibri;
+  list-style: none;
+  
+}
+.menu li:hover{
+  background: #a57c0ba4;
+}
+.menu li a :hover{
+
+  color: #fff;
+
+}
+/*------- finish of styling the navigation bar------- */
+
+.myclass{
+  background: lightblue;
+  
+  text-align: center;
+  border:120px;
+  padding:120px;
+  margin:50px;
+}
+.list_styling{
+  text-align: center;
+  color:blue;
+
+}
+
+.mystyling,.mystyling2{
+  text-align: center;
+  list-style: none;
+  background: lightblue;
+}
+.mystyling3{
+  text-align: center;
+}
+.mystyling1{
+  text-align: center;
+}
+.style1{
+  float:right;
+}
